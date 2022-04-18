@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: black;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+// ----------------------------------------------------------- END OF CSS RESET ------------------------------------------------- //
+
+#box_counter {
+    color: white;
+
+}
+
+.box {
+    color: white;
+    width: 50vw;
+    height: 50vh;
+    margin: 25vh auto 0 auto;
+    text-align: center;
+    font-size: 2em;
+    box-shadow: 0px 0px 6px 3px #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    .box__counter {
+        font-size: 1.5em;
+    }
+    
+    .box-buttonList {
+        display: flex;
+        justify-content: space-around;
+        height: 15%;
+
+        .box-buttonList__decrease {
+            color:#FFFFFF;
+            width: 30%;
+            box-shadow:inset 0px 1px 0px 0px #f29c93;
+            background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+            background-color:#fe1a00;
+            border-radius:6px;
+            border:1px solid #d83526;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:15px;
+            font-weight:bold;
+            padding:6px 24px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #b23e35;      
+            
+        }
+
+        .box-buttonList__reset {
+            color: black;
+            width: 30%;
+            background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+            background-color:#ffffff;
+            border-radius:6px;
+            border:1px solid #ffffff;
+            display:inline-block;
+            cursor:pointer;
+            font-family:Arial;
+            font-size:15px;
+            font-weight:bold;
+            padding:6px 24px;
+            text-decoration:none;
+
+        }
+
+        .box-buttonList__increase {
+            color:#FFFFFF;
+            width: 30%;
+            box-shadow:inset 0px 1px 0px 0px #4cce00;
+            background:linear-gradient(to bottom, #4cce00 5%, #4cce00 100%);
+            border-radius:6px;
+            border:1px solid #4cce00;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:15px;
+            font-weight:bold;
+            padding:6px 24px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #4cce00;
+            
+            
+        }
+
+    }
+    
+}
